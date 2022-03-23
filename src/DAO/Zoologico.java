@@ -16,11 +16,20 @@ public class Zoologico{
     private String ciudad;
     private String pais;
     private String fecha_inauguracion;
+    private String direccion;
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
 
     public Zoologico() {
     }
 
-    public Zoologico(int id_zoologico, String nombre, String ciudad, String pais, String fecha_inauguracion) {
+    public Zoologico(int id_zoologico, String nombre, String ciudad, String pais, String fecha_inauguracion, String direccion) {
         this.id_zoologico = id_zoologico;
         this.nombre = nombre;
         this.ciudad = ciudad;

@@ -28,7 +28,7 @@ public class Especie {
      public Especie() {
     }
      
-    public Especie(int id_especie, String nombre_vulgar, String nombre_cientifico, String familia, byte peligo_extincion) {
+    public Especie(int id_especie, String nombre_vulgar, String nombre_cientifico, String familia, byte peligo_extincion, int edad) {
         this.id_especie = id_especie;
         this.nombre_vulgar = nombre_vulgar;
         this.nombre_cientifico = nombre_cientifico;
