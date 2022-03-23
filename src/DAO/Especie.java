@@ -15,6 +15,7 @@ public class Especie {
     private String nombre_cientifico;
     private String familia;
     private int peligo_extincion;
+    private int edad;
 
      public Especie() {
     }
