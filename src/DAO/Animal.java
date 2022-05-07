@@ -17,16 +17,18 @@ public class Animal {
     private int año_nacimiento;
     private int especie;
     private int zoologico;
+    private String nuevo;
 
     public Animal() {
     }
 
-    public Animal(int id_animal, String identificacion, int año_nacimiento, int especie, int zoologico) {
+    public Animal(int id_animal, String identificacion, int año_nacimiento, int especie, int zoologico, String nuevo) {
         this.id_animal = id_animal;
         this.identificacion = identificacion;
         this.año_nacimiento = año_nacimiento;
         this.especie = especie;
         this.zoologico = zoologico;
+        this.nuevo= nuevo;
     }
 
     public Animal(String identificacion, int año_nacimiento, int especie, int zoologico) {
